@@ -1,0 +1,46 @@
+{
+  "name": "cache-Implementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js",
+    "test": "mocha --require @babel/register --exit",
+    "coverage": "nyc npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/register": "^7.15.3",
+    "@istanbuljs/load-nyc-config": "^1.1.0",
+    "@istanbuljs/nyc-config-babel": "^3.0.0",
+    "babel-plugin-istanbul": "^6.0.0",
+    "nodemon": "2.0.2",
+    "eslint": "6.8.0",
+    "nyc": "14.1.1",
+    "sinon": "7.5.0",
+    "chai-uuid": "1.0.6",
+    "mocha": "6.2.2",
+    "mochawesome": "4.1.0",
+    "chai": "4.2.0",
+    "chai-http": "4.3.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "express": "4.17.1",
+    "joi": "^17.4.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.6",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  }
+}
